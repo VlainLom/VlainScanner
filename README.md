@@ -7,7 +7,7 @@ pip3 install IPy
 
 git clone https://github.com/VlainLom/VlainScanner.git
 
-cd VainScanner
+cd VlainScanner
 
 python3 main.py
 
