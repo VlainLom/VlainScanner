@@ -21,7 +21,7 @@ jobs:
       run:
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag website/node-test:$(date +%s)
+      run: docker build . --file Dockerfile --tag scannerapp/node-test:$(date +%s)
       
     - name: Docker Push
-      run: docker push vlainlom/simplon:v1.0
+      run: docker push vlainlom/simplon/scannerapp:v1.0
