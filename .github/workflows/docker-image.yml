@@ -24,4 +24,5 @@ jobs:
       run: docker build . --file Dockerfile --tag scannerapp:v1.0
       
     - name: Docker Push
+      run: docker tag scannerapp:v1.0 vlainlom/simplon/scannerapp:v1.0
       run: docker push vlainlom/simplon/scannerapp:v1.0
