@@ -7,7 +7,7 @@ print(colored(text2art ("VlainScanner", font="random")))
 print(colored('Created by Vlain LOM\n\n'.center(60)))
 
 def main() :
-    print("1- Analyser les ports ouverts d'une cible\n2- Analyser les ports ouverts de plusieurs cibles")
+    print("1- Scanned a target\n2- Scanned multiple targets")
 
     sc = True
     while sc :
