@@ -1,6 +1,4 @@
 import socket
-#pip install IPy
-#pip3 install IPy
 from IPy import IP
 
 def scan(target):
