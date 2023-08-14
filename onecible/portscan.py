@@ -28,5 +28,5 @@ def scan_port(ipaddress, port):
     except:
         pass
 
-for port in range(1,1001):
+for port in range(1,65535):
     scan_port(converted_ip, port)

@@ -4,7 +4,7 @@ from IPy import IP
 def scan(target):
     converted_ip =check_ip(target)
     print("\n" + "[+] Analyse de [ " + str(target) + ' ]')
-    for port in range(1,10001):
+    for port in range(1,65535):
         scan_port(converted_ip, port)
 
 def check_ip(ip):
